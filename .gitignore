@@ -1,0 +1,13 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore local databases (if you don’t want to commit them)
+chat_history.db
+
+# Keep only the example env
+!.env.example
